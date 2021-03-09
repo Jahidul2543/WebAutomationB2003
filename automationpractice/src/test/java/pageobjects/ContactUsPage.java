@@ -32,7 +32,7 @@ public class ContactUsPage {
         ApplicationHelper.sendKeys("messageBox", messageBox, message);
         clickSubmitButton();
     }
-
+    // Clicking Submit Button
     public void clickSubmitButton() {
         TestLogger.log("CLick Submit Button");
         submitButton.click();
