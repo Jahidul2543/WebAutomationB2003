@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/jahidul/IdeaProjects/WebAutomationB2003/automationpractice/target/surefire-reports/html]]>
@@ -11,13 +11,67 @@
       <![CDATA[Send text to EmailBox]]>
     </line>
     <line>
-      <![CDATA[junk@kunk.com Sent to EmailBox]]>
+      <![CDATA[j@gmai.com Sent to EmailBox]]>
     </line>
     <line>
       <![CDATA[Send text to messageBox]]>
     </line>
     <line>
-      <![CDATA[Provide me some junk information!!! Sent to messageBox]]>
+      <![CDATA[Hello hi Sent to messageBox]]>
+    </line>
+    <line>
+      <![CDATA[CLick Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[CLicked Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[CLick Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[CLicked Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Contact Us Button]]>
+    </line>
+    <line>
+      <![CDATA[Send text to EmailBox]]>
+    </line>
+    <line>
+      <![CDATA[k@kmail.com Sent to EmailBox]]>
+    </line>
+    <line>
+      <![CDATA[Send text to messageBox]]>
+    </line>
+    <line>
+      <![CDATA[How are you Sent to messageBox]]>
+    </line>
+    <line>
+      <![CDATA[CLick Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[CLicked Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[CLick Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[CLicked Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Contact Us Button]]>
+    </line>
+    <line>
+      <![CDATA[Send text to EmailBox]]>
+    </line>
+    <line>
+      <![CDATA[h@hox.com Sent to EmailBox]]>
+    </line>
+    <line>
+      <![CDATA[Send text to messageBox]]>
+    </line>
+    <line>
+      <![CDATA[Lets visit..... Sent to messageBox]]>
     </line>
     <line>
       <![CDATA[CLick Submit Button]]>
@@ -32,31 +86,43 @@
       <![CDATA[CLicked Submit Button]]>
     </line>
   </reporter-output>
-  <suite name="Automation Test" duration-ms="10481" started-at="2021-03-09T01:03:23Z" finished-at="2021-03-09T01:03:33Z">
+  <suite name="Automation Test" duration-ms="59379" started-at="2021-03-11T01:53:03Z" finished-at="2021-03-11T01:54:03Z">
     <groups>
     </groups>
-    <test name="Ecommerce Home" duration-ms="10481" started-at="2021-03-09T01:03:23Z" finished-at="2021-03-09T01:03:33Z">
+    <test name="Ecommerce Home" duration-ms="59379" started-at="2021-03-11T01:53:03Z" finished-at="2021-03-11T01:54:03Z">
       <class name="pageobjectstests.ContactUsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1]" name="setUp" is-config="true" duration-ms="2947" started-at="2021-03-09T01:03:28Z" finished-at="2021-03-09T01:03:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="setUp" is-config="true" duration-ms="5035" started-at="2021-03-11T01:53:12Z" finished-at="2021-03-11T01:53:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1]" name="initializeElements" is-config="true" duration-ms="2" started-at="2021-03-09T01:03:31Z" finished-at="2021-03-09T01:03:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeElements -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-03-09T01:03:31Z" finished-at="2021-03-09T01:03:31Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-03-11T01:53:17Z" finished-at="2021-03-11T01:53:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void pageobjectstests.ContactUsTest.sendAMessageTest()]]>
+                <![CDATA[public void pageobjectstests.ContactUsTest.sendAMessageTest(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="sendAMessageTest()[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1]" name="sendAMessageTest" duration-ms="2143" started-at="2021-03-09T01:03:31Z" finished-at="2021-03-09T01:03:33Z">
+        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="initializeElements" is-config="true" duration-ms="3" started-at="2021-03-11T01:53:17Z" finished-at="2021-03-11T01:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeElements -->
+        <test-method status="PASS" signature="sendAMessageTest(java.lang.String, java.lang.String)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="sendAMessageTest" duration-ms="2661" started-at="2021-03-11T01:53:17Z" data-provider="dataProvider" finished-at="2021-03-11T01:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[j@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello hi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Clicked Contact Us Button]]>
@@ -65,13 +131,13 @@
               <![CDATA[Send text to EmailBox]]>
             </line>
             <line>
-              <![CDATA[junk@kunk.com Sent to EmailBox]]>
+              <![CDATA[j@gmai.com Sent to EmailBox]]>
             </line>
             <line>
               <![CDATA[Send text to messageBox]]>
             </line>
             <line>
-              <![CDATA[Provide me some junk information!!! Sent to messageBox]]>
+              <![CDATA[Hello hi Sent to messageBox]]>
             </line>
             <line>
               <![CDATA[CLick Submit Button]]>
@@ -87,28 +153,182 @@
             </line>
           </reporter-output>
         </test-method> <!-- sendAMessageTest -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1]" name="afterEachTestMethod" is-config="true" duration-ms="137" started-at="2021-03-09T01:03:33Z" finished-at="2021-03-09T01:03:33Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="afterEachTestMethod" is-config="true" duration-ms="643" started-at="2021-03-11T01:53:20Z" finished-at="2021-03-11T01:53:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sendAMessageTest status=SUCCESS method=ContactUsTest.sendAMessageTest()[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1] output=Clicked Contact Us Button]]]>
+                <![CDATA[[TestResult name=sendAMessageTest status=SUCCESS method=ContactUsTest.sendAMessageTest(java.lang.String, java.lang.String)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece] output=Clicked Contact Us Button]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.ContactUsTest@573f2bb1]" name="cleanUP" is-config="true" duration-ms="0" started-at="2021-03-09T01:03:33Z" finished-at="2021-03-09T01:03:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="setUp" is-config="true" duration-ms="20431" started-at="2021-03-11T01:53:20Z" finished-at="2021-03-11T01:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="cleanUP" is-config="true" duration-ms="0" started-at="2021-03-11T01:53:20Z" finished-at="2021-03-11T01:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUP -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-03-11T01:53:41Z" finished-at="2021-03-11T01:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageobjectstests.ContactUsTest.sendAMessageTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="initializeElements" is-config="true" duration-ms="1" started-at="2021-03-11T01:53:41Z" finished-at="2021-03-11T01:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeElements -->
+        <test-method status="PASS" signature="sendAMessageTest(java.lang.String, java.lang.String)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="sendAMessageTest" duration-ms="2658" started-at="2021-03-11T01:53:41Z" data-provider="dataProvider" finished-at="2021-03-11T01:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[k@kmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How are you]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Contact Us Button]]>
+            </line>
+            <line>
+              <![CDATA[Send text to EmailBox]]>
+            </line>
+            <line>
+              <![CDATA[k@kmail.com Sent to EmailBox]]>
+            </line>
+            <line>
+              <![CDATA[Send text to messageBox]]>
+            </line>
+            <line>
+              <![CDATA[How are you Sent to messageBox]]>
+            </line>
+            <line>
+              <![CDATA[CLick Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[CLicked Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[CLick Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[CLicked Submit Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendAMessageTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="afterEachTestMethod" is-config="true" duration-ms="672" started-at="2021-03-11T01:53:43Z" finished-at="2021-03-11T01:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendAMessageTest status=SUCCESS method=ContactUsTest.sendAMessageTest(java.lang.String, java.lang.String)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece] output=Clicked Contact Us Button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="cleanUP" is-config="true" duration-ms="0" started-at="2021-03-11T01:53:44Z" finished-at="2021-03-11T01:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUP -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="setUp" is-config="true" duration-ms="16136" started-at="2021-03-11T01:53:44Z" finished-at="2021-03-11T01:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-03-11T01:54:00Z" finished-at="2021-03-11T01:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageobjectstests.ContactUsTest.sendAMessageTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="initializeElements" is-config="true" duration-ms="1" started-at="2021-03-11T01:54:00Z" finished-at="2021-03-11T01:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeElements -->
+        <test-method status="PASS" signature="sendAMessageTest(java.lang.String, java.lang.String)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="sendAMessageTest" duration-ms="1987" started-at="2021-03-11T01:54:00Z" data-provider="dataProvider" finished-at="2021-03-11T01:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[h@hox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lets visit.....]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Contact Us Button]]>
+            </line>
+            <line>
+              <![CDATA[Send text to EmailBox]]>
+            </line>
+            <line>
+              <![CDATA[h@hox.com Sent to EmailBox]]>
+            </line>
+            <line>
+              <![CDATA[Send text to messageBox]]>
+            </line>
+            <line>
+              <![CDATA[Lets visit..... Sent to messageBox]]>
+            </line>
+            <line>
+              <![CDATA[CLick Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[CLicked Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[CLick Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[CLicked Submit Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendAMessageTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="afterEachTestMethod" is-config="true" duration-ms="791" started-at="2021-03-11T01:54:02Z" finished-at="2021-03-11T01:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendAMessageTest status=SUCCESS method=ContactUsTest.sendAMessageTest(java.lang.String, java.lang.String)[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece] output=Clicked Contact Us Button]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.ContactUsTest@5dfcfece]" name="cleanUP" is-config="true" duration-ms="1" started-at="2021-03-11T01:54:03Z" finished-at="2021-03-11T01:54:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
       </class> <!-- pageobjectstests.ContactUsTest -->
       <class name="pageobjectstests.HomePageTest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="extentSetup" is-config="true" duration-ms="150" started-at="2021-03-09T01:03:22Z" finished-at="2021-03-09T01:03:23Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="extentSetup" is-config="true" duration-ms="127" started-at="2021-03-11T01:53:03Z" finished-at="2021-03-11T01:53:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7642df8f]]>
+                <![CDATA[org.testng.TestRunner@c1a4620]]>
               </value>
             </param>
           </params>
@@ -118,11 +338,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="setUp" is-config="true" duration-ms="3909" started-at="2021-03-09T01:03:23Z" finished-at="2021-03-09T01:03:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="setUp" is-config="true" duration-ms="6330" started-at="2021-03-11T01:53:04Z" finished-at="2021-03-11T01:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="startExtent" is-config="true" duration-ms="5" started-at="2021-03-09T01:03:26Z" finished-at="2021-03-09T01:03:26Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="startExtent" is-config="true" duration-ms="6" started-at="2021-03-11T01:53:10Z" finished-at="2021-03-11T01:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -133,30 +353,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="initializeElements" is-config="true" duration-ms="21" started-at="2021-03-09T01:03:26Z" finished-at="2021-03-09T01:03:26Z">
+        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="initializeElements" is-config="true" duration-ms="18" started-at="2021-03-11T01:53:10Z" finished-at="2021-03-11T01:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeElements -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="searchTest" duration-ms="897" started-at="2021-03-09T01:03:26Z" finished-at="2021-03-09T01:03:27Z">
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="searchTest" duration-ms="599" started-at="2021-03-11T01:53:10Z" finished-at="2021-03-11T01:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="403" started-at="2021-03-09T01:03:27Z" finished-at="2021-03-09T01:03:28Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="afterEachTestMethod" is-config="true" duration-ms="836" started-at="2021-03-11T01:53:10Z" finished-at="2021-03-11T01:53:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest()[pri:0, instance:pageobjectstests.HomePageTest@402f32ff] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="cleanUP" is-config="true" duration-ms="0" started-at="2021-03-09T01:03:28Z" finished-at="2021-03-09T01:03:28Z">
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="cleanUP" is-config="true" duration-ms="0" started-at="2021-03-11T01:53:11Z" finished-at="2021-03-11T01:53:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:pageobjectstests.HomePageTest@402f32ff]" name="generateReport" is-config="true" duration-ms="33" started-at="2021-03-09T01:03:33Z" finished-at="2021-03-09T01:03:33Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="generateReport" is-config="true" duration-ms="39" started-at="2021-03-11T01:54:03Z" finished-at="2021-03-11T01:54:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

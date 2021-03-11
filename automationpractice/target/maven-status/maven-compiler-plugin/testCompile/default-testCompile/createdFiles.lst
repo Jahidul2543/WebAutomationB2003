@@ -1,5 +1,9 @@
-pageobjectstests/ContactUsTest.class
 pageobjects/ContactUsPage.class
 pageobjectstests/HomePageTest.class
+pageobjectstests/TestClass3.class
+pageobjectstests/TestClass1.class
+pageobjectstests/ContactUsTest.class
+pageobjectstests/mainTestClass.class
 helper/ApplicationHelper.class
+pageobjectstests/TestClass2.class
 pageobjects/HomePage.class
